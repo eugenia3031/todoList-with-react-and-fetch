@@ -1,12 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
 
-/* 
+body{
+    background-color:rgba(236, 236, 233, 0.715);
+}
+h1{
+    text-align: center;
+    color: rgba(215, 203, 207, 0.715);
+    font-size: 100px;
+    font-family: 'Inter', sans-serif;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+input{
+    margin: 0 auto; 
+    padding: 50px; 
+    width: 100%;
+    height: 60px;
+    max-width: 600px;
+    display: flex;
+    border: none;
+    font-size: 18px;
+    font-family: 'Inter', sans-serif;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
 
-*/
+input:focus, select:focus, select, input.form-control:focus {
+    outline:none !important;
+    outline-width: 0 !important;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+ul, p{
+    background-color: white;
+    color: black;
+    padding: 50px;
+    margin: auto;
+    padding: 20px;
+    width: 100%;
+    max-width: 600px;
+    font-family: 'Inter', sans-serif;
+
+}
+
+a {
+    float: right;  
+    color: rgba(117, 35, 62, 0.715);
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+}
+
+.disable{
+    display: none;
+} 
+
+button{
+    float: right;
+    border: none;
+    font-family: 'Inter', sans-serif;
+}
